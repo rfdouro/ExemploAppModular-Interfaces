@@ -2,11 +2,9 @@ package br.rfdouro;
 
 import javax.swing.*;
 
-import br.rfdouro.spec.Impressao;
 
 import java.awt.*;
 import java.io.File;
-import java.util.ServiceLoader;
 
 public class GUI extends JFrame {
  private MainApp app;
