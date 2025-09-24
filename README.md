@@ -3,6 +3,8 @@ Para criar uma aplicação Java modular onde você tenha um JAR principal com a 
 ## Estrutura Recomendada
 Em uma pasta crie três projetos java maven
 
+![alt text](doc\images\image.png)
+
 ## 1. Projeto 1: JAR com a Interface (API)
 
 ### Estrutura:
@@ -18,6 +20,7 @@ demo-spec/
 └── pom.xml
 ```
 
+![alt text](doc\images\image-1.png)
 
 ### Impressao.java:
 
@@ -77,7 +80,7 @@ demo-impl/
 └── pom.xml
 ```
 
-
+![alt text](doc\images\image-2.png)
 
 ### ImpressaoConsole.java:
 
@@ -157,6 +160,7 @@ demo-app/
 └── pom.xml
 ```
 
+![alt text](doc\images\image-3.png)
 
 ### MainApp.java:
 
@@ -366,8 +370,9 @@ java -cp demo-app-1.0-SNAPSHOT.jar;..\..\demo-spec\target\demo-spec-1.0.jar br.r
 
 ## Alterando a implementação
 
-É possível criar uma nova implementação e usá-la
-Novo projeto de implementação.
+É possível criar uma nova implementação e usá-la.
+
+### Novo projeto de implementação.
 
 Crie um projeto Java Maven chamado demo-impl-new com a seguinte estrutura.
 
@@ -389,7 +394,7 @@ demo-impl/
 └── pom.xml
 ```
 
-
+![alt text](doc\images\image-4.png)
 
 ### pom.xml
 
