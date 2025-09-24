@@ -3,7 +3,7 @@ Para criar uma aplicação Java modular onde você tenha um JAR principal com a 
 ## Estrutura Recomendada
 Em uma pasta crie três projetos java maven
 
-![alt text](doc\images\image.png)
+![alt text](doc/images/image.png)
 
 ## 1. Projeto 1: JAR com a Interface (API)
 
@@ -20,7 +20,7 @@ demo-spec/
 └── pom.xml
 ```
 
-![alt text](doc\images\image-1.png)
+![alt text](doc/images/image-1.png)
 
 ### Impressao.java:
 
@@ -80,7 +80,7 @@ demo-impl/
 └── pom.xml
 ```
 
-![alt text](doc\images\image-2.png)
+![alt text](doc/images/image-2.png)
 
 ### ImpressaoConsole.java:
 
@@ -160,7 +160,7 @@ demo-app/
 └── pom.xml
 ```
 
-![alt text](doc\images\image-3.png)
+![alt text](doc/images/image-3.png)
 
 ### MainApp.java:
 
@@ -394,7 +394,7 @@ demo-impl/
 └── pom.xml
 ```
 
-![alt text](doc\images\image-4.png)
+![alt text](doc/images/image-4.png)
 
 ### pom.xml
 
