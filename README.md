@@ -477,7 +477,33 @@ Para a linha de comandos acesse o diretório target da aplicação e execute:
 java -cp demo-app-1.0-SNAPSHOT.jar;..\..\demo-impl-new\target\demo-impl-new-1.0.jar;..\..\demo-spec\target\demo-spec-1.0.jar br.rfdouro.MainApp
 ```
 
+## Verificação de JAR
 
+É possível verificar a estrutura de um arquivo .jar
 
+``` bash
+jar tf demo-app-1.0-SNAPSHOT.jar
+```
 
+Isso deve exibir algo como
+
+``` bash
+META-INF/
+META-INF/MANIFEST.MF
+br/
+br/rfdouro/
+META-INF/maven/
+META-INF/maven/br.rfdouro/
+META-INF/maven/br.rfdouro/demo-app/
+br/rfdouro/GUI.class
+br/rfdouro/MainApp.class
+META-INF/maven/br.rfdouro/demo-app/pom.xml
+META-INF/maven/br.rfdouro/demo-app/pom.properties
+```
+O que podemos extrair de informações:
+
+* Os pacotes existentes no arquivo
+  * ```br/rfdouro/```
+* As classes no arquivo
+  * ```br/rfdouro/MainApp.class```
 
