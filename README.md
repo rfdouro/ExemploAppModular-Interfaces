@@ -379,7 +379,7 @@ Crie um projeto Java Maven chamado demo-impl-new com a seguinte estrutura.
 ### Estrutura:
 
 ``` bash
-demo-impl/
+demo-impl-new/
 ├── src/
 │   └── main/
 │       └── java/
